@@ -1,0 +1,10 @@
+x=int(input())
+sum=0
+while(x>0):
+    y=x%10
+    sum=sum+y
+    x=x//10
+if(sum%2==0):
+    print("Vignesh")
+else:
+    print("Charan")
